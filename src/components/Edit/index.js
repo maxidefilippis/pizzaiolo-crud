@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router";
 import { handleEdit, getElement } from "../../functions/crud";
+import "../Add/form.scss";
 
 export default function Edit({ match }) {
   const { push } = useHistory();
@@ -30,7 +31,7 @@ export default function Edit({ match }) {
   return (
     <div>
       <h1>EDITAR ELEMENTO</h1>
-      <form onSubmit={handleForm}>
+      <form className="form" onSubmit={handleForm}>
         <input
           name="name"
           type="text"

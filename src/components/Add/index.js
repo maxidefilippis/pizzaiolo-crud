@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
+import "./form.scss";
 
 export default function Formulario() {
   const [name, setName] = useState("");
@@ -23,7 +24,7 @@ export default function Formulario() {
   };
 
   return (
-    <form onSubmit={registrar} method="POST">
+    <form className="add" onSubmit={registrar} method="POST">
       <input
         type="text"
         name="name"
