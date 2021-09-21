@@ -24,7 +24,7 @@ export default function Formulario() {
   };
 
   return (
-    <form className="add" onSubmit={registrar} method="POST">
+    <form className="form" onSubmit={registrar} method="POST">
       <input
         type="text"
         name="name"

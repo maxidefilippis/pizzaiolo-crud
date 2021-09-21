@@ -4,17 +4,10 @@
   height: 75vh;
   width: 90%;
   margin: 0 auto;
-  border: 1px solid grey;
+  border: 1px solid white;
   border-radius: 10px;
   margin-top: 1rem;
-  background-color: lightgray;
-  &__element {
-    display: flex;
-    justify-content: space-between;
-    background-color: red;
-    margin: 0.5rem 1rem;
-    max-width: 100%;
-  }
+  background-color: tomato;
   table,
   td,
   th {
