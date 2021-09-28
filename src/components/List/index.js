@@ -18,7 +18,7 @@ export default function List() {
 
   if (loading) return <div>Cargando datos..</div>;
   return (
-    <div className="list">
+    <div className="list border shadow">
       <Table variant="striped">
         <Thead>
           <Tr>
