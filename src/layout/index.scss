@@ -9,6 +9,7 @@
   &__navbar {
     display: flex;
     flex-direction: column;
+    min-height: 15vh;
   }
   &__links {
     display: flex;
@@ -17,5 +18,8 @@
       font-weight: bold;
       margin: 0 1rem;
     }
+  }
+  &__content{
+    min-height: 85vh;
   }
 }

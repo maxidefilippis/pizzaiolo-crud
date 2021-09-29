@@ -13,7 +13,7 @@ export default function Layout({ children }) {
           <Link to="/add">Agregar</Link>
         </div>
       </nav>
-      <div>{children}</div>
+      <div className="layout__content">{children}</div>
     </div>
   );
 }

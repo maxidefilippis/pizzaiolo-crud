@@ -1,11 +1,12 @@
 .list {
   display: flex;
   flex-direction: column;
-  height: 75vh;
+  height: 100%;
   width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
   border-radius: 10px;
-  padding: 10px;
+  padding: 2rem;
   margin-top: 1rem;
   background-color: tomato;
   table,
